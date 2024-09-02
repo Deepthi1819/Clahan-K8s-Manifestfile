@@ -1,0 +1,10 @@
+apiversion: v1
+kind: Pod
+metadata:
+   name: clahan-shippingweb
+spec:
+   containers:
+       - name: clahan-image
+         image: clahandevops/clahan-image:latest
+         ports:
+            - conatinerport: 80
